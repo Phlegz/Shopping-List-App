@@ -45,6 +45,7 @@ body {
 }
 
 .main{
+	background: rgba(255,255,255,.2);
 	position:absolute;
 	width:50%;
 	left:26%;
@@ -137,3 +138,10 @@ cursor: pointer;
 .footer p{
 	font-weight: 100; 
 }
+
+#input{
+background: transparent;
+border:none;
+border-bottom: 1px solid black;}
+
+<input autofocus></input>
